@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+            background: #000;
+            color: whitesmoke;
+        
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left:60;
+            top: 1;
+        }
+        .left img{
+            width: 140px;
+            filter:drop-shadow(100%);
+            height: 90px;
+            border: 3px solid white;
+            border-radius: 500px;
+
+        }
+
+        .left div{
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        li{
+            border: 4px solis greenyellow;
+            border-radius: 6px;
+            margin: 7px;
+            margin-left: 70px;
+            
+
+        }
+
+        .mid{
+            top: 0px;
+            display: block ;
+            width: 50%;
+            margin: 29px auto;
+            border: 5px solid chartreuse; /*rgb(255, 0, 64)*/
+            border-radius: 44px;
+            background-color: black; /*white-smoke*/
+            
+        }
+
+        .right{
+            position: absolute;/*absolute apply top/right/bottom/left acc. to screen view and relative acc. to 
+             original position of element*/
+            right: 34px;
+            display: inline-block;
+            top: 20px;
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+
+            padding: 00px 23px;
+            border: 4px solid white;/*orange*/
+            border-radius:15px;
+            margin-left: 10px;
+            background-color: black; /*greenyyellow*/
+            
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration:underline;
+            color: chartreuse; /*chocolate*/
+
+        }
+
+        .btn{
+               font-family: italic ;
+               margin: 0px 9px;
+               background-color: whitesmoke;
+               padding: 4px 14px;
+               border:4px solid rgb(107, 224, 10);
+               border-radius: 10px;
+               font-size: 20px;
+               cursor: pointer;
+            
+        }
+
+        .btn:hover {
+                 background-color: wheat;
+        }
+
+        #hr-1{
+    color:lawngreen;
+    border: 3px solid whitesmoke;
+    margin-top: 50px;
+    height: 0px;
+}
+    
+.heading{
+    font-size: 2.4rem;
+    padding: 5px;
+    font-style: italic;
+    color:whitesmoke;
+    text-shadow: 1px 1px rgb(225, 251, 152);  
+    text-decoration: underline ;
+     
+}
+
+.frame-div{
+    margin: 7px;
+}
+
+iframe{
+    margin:"30px";
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.codes-div{
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    margin: 20px;
+    
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+
+
+   .codes-btn{
+       color: black;
+       background-color: whitesmoke;
+       border: 2px solid purple;
+       padding: 4px;
+       border-radius: 20px;
+       padding: 10px;
+       margin:15px;
+       font-weight: bolder;
+       text-decoration: none;
+   }
+   .codes-btn:hover{
+       background-color: aqua;
+   }
+
+   .codes-btn-h2{
+       text-decoration:underline;
+       margin-left: 20px;
+   }
+
+    </style>
+
+
+</head>
+<body>
+<div class="nav-head">
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="rocket.png"alt="on your internet">
+            <div style="color:chartreuse">my corner</div>
+        </div>
+        <div class="mid">
+            <!---mid box for notification-->
+            <ul class="navbar">
+                <li><a href="index.html">home</a></li>
+                
+               <!---- <li><a href="site_purpose.html" id="li-1">site purpose</a></li>  -->
+                <li><a href="https://c4knowledgeseekers.in/practice-problems/core-java-programming" id="li-2">code renference</a></li>
+                <!--<input type="search" class="search" placeholder="search it">
+                <input type="reset">-->
+            </ul>     
+        </div>
+        
+          <!---right box for button-->
+          
+           <div class="right">
+             <button class="btn">call us</button>
+             <button class="btn">email us</button>
+           </div>
+        
+            
+        </div>
+    </header>
+</div>
+   
+<hr id="hr-1"> 
+
+<h1  style="margin-top:0px;">here are my inheritance programes with code and output.</h1>
+
+<hr style="color: chartreuse;">
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Animal with a method called makeSound(). Create a subclass called Cat that overrides the makeSound() method to bark.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance1_7056.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance1_7056.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Repairing a car".    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance2_7056.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance2_7056.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Shape with a method called getArea(). Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance3_7056.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance3_7056.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance4_7056.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance4_7056.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance5_7007.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance5_7007.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run.    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance6_7083.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance6_7083.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance7_7101.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance7_7101.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.
+    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance8_7091.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance8_7091.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program that creates a class hierarchy for employees of a company. The base class should be Employee, with subclasses Manager, Developer, and Programmer. Each subclass should have properties such as name, address, salary, and job title. Implement methods for calculating bonuses, generating performance reports, and managing projects.
+    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance10_7017.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance10_7017.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Create a program, showing an example of super keyword    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance11_7100.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance11_7100.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Create a program, showing an example of super function</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/inheritance12_7024.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/inheritance12_7024.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance15_7017.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance15_7017.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :- Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance18_7084.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance18_7084.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.
+    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance19_7041.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance19_7041.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class Person with abstract methods eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.
+    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance22_7003.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance22_7003.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class Instrument with abstract methods play() and tune(). Create subclasses for Glockenspiel and Violin that extend the Instrument class and implement the respective methods to play and tune each instrument.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance23_7041.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance23_7041.java" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance25_7041.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance25_7041.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Inheritance/Inheritance26_7027.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Inheritance/Inheritance26_7027.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

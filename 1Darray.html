@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+            background: #000;
+            color: whitesmoke;
+        
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left:60;
+            top: 1;
+        }
+        .left img{
+            width: 140px;
+            filter:drop-shadow(100%);
+            height: 90px;
+            border: 3px solid white;
+            border-radius: 500px;
+
+        }
+
+        .left div{
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        li{
+            border: 4px solis greenyellow;
+            border-radius: 6px;
+            margin: 7px;
+            margin-left: 70px;
+            
+
+        }
+
+        .mid{
+            top: 0px;
+            display: block ;
+            width: 50%;
+            margin: 29px auto;
+            border: 5px solid chartreuse; /*rgb(255, 0, 64)*/
+            border-radius: 44px;
+            background-color: black; /*white-smoke*/
+            
+        }
+
+        .right{
+            position: absolute;/*absolute apply top/right/bottom/left acc. to screen view and relative acc. to 
+             original position of element*/
+            right: 34px;
+            display: inline-block;
+            top: 20px;
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+
+            padding: 00px 23px;
+            border: 4px solid white;/*orange*/
+            border-radius:15px;
+            margin-left: 10px;
+            background-color: black; /*greenyyellow*/
+            
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration:underline;
+            color: chartreuse; /*chocolate*/
+
+        }
+
+        .btn{
+               font-family: italic ;
+               margin: 0px 9px;
+               background-color: whitesmoke;
+               padding: 4px 14px;
+               border:4px solid rgb(107, 224, 10);
+               border-radius: 10px;
+               font-size: 20px;
+               cursor: pointer;
+            
+        }
+
+        .btn:hover {
+                 background-color: wheat;
+        }
+
+        #hr-1{
+    color:lawngreen;
+    border: 3px solid whitesmoke;
+    margin-top: 50px;
+    height: 0px;
+}
+    
+.heading{
+    font-size: 2.4rem;
+    padding: 5px;
+    font-style: italic;
+    color:whitesmoke;
+    text-shadow: 1px 1px rgb(225, 251, 152);  
+    text-decoration: underline ;
+     
+}
+
+.frame-div{
+    margin: 7px;
+}
+
+iframe{
+    margin:"30px";
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.codes-div{
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    margin: 20px;
+    
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+
+
+   .codes-btn{
+       color: black;
+       background-color: whitesmoke;
+       border: 2px solid purple;
+       padding: 4px;
+       border-radius: 20px;
+       padding: 10px;
+       margin:15px;
+       font-weight: bolder;
+       text-decoration: none;
+   }
+   .codes-btn:hover{
+       background-color: aqua;
+   }
+
+   .codes-btn-h2{
+       text-decoration:underline;
+       margin-left: 20px;
+   }
+
+    </style>
+
+
+</head>
+<body>
+<div class="nav-head">
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="rocket.png"alt="on your internet">
+            <div style="color:chartreuse">my corner</div>
+        </div>
+        <div class="mid">
+            <!---mid box for notification-->
+            <ul class="navbar">
+                <li><a href="index.html">home</a></li>
+                
+               <!---- <li><a href="site_purpose.html" id="li-1">site purpose</a></li>  -->
+                <li><a href="https://c4knowledgeseekers.in/practice-problems/core-java-programming" id="li-2">code renference</a></li>
+                <!--<input type="search" class="search" placeholder="search it">
+                <input type="reset">-->
+            </ul>     
+        </div>
+        
+          <!---right box for button-->
+          
+           <div class="right">
+             <button class="btn">call us</button>
+             <button class="btn">email us</button>
+           </div>
+        
+            
+        </div>
+    </header>
+</div>
+   
+<hr id="hr-1"> 
+
+<h1  style="margin-top:0px;">here are my 1d array programes with code and output.</h1>
+
+<hr style="color: chartreuse;">
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to copy all elements of one array into another array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray1.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray1.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :- Program to find the frequency of each element in the array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/70711Darray2.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/70711Darray2.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to left rotate the elements of an array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7007_1dArray3.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7007_1dArray3.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to print the elements of an array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7073_1Darray5.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7073_1Darray5.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to print the elements of an array present on even position</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray7.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray7.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to print the largest element in an array    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays9.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays9.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to print the smallest element in an array    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays10.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays10.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to print the number of elements present in an array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/70661DArray11.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/70661DArray11.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to sort the elements of an array in ascending order</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7102singlearray14.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7102singlearray14.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to sort the elements of an array in descending order</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7105_1DArray_15.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7105_1DArray15.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to Find 2nd Largest Number in an array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays17.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7003singledimensionarrays17.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to Find Largest Number in an array</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7017Singlearray18.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7017Singlearray18.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+<br>
+<div class="frame-div">
+    <h2> :-Program to Remove Duplicate Element in an array    </h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray21.JAVA" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7011onedarray21.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+<br>
+<div class="frame-div">
+    <h2> :-How to Sort an Array in Java</h2> <br>
+    <iframe id="frame-1" src="./javapro-1/javapro/Single-Dimension-Array/7070SingleDimensionArray23.java" frameborder="0" height="450px" width="48%"></iframe>
+    <iframe id="frame-2" src="./javapro-1/javapro/Single-Dimension-Array/7070SingleDimensionArray23.png" frameborder="0" height="450px" width = "48%"></iframe>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
